@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class AufgabeAB {
+public class AufgabeArrayT1AB {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

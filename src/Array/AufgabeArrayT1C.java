@@ -1,6 +1,6 @@
 package Array;
 
-public class AufgabeC {
+public class AufgabeArrayT1C {
     public static void main(String[] args) {
         boolean [] array = new boolean[20];
 
