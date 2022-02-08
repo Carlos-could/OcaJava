@@ -59,20 +59,60 @@ public class AufgabeString {
 //        System.out.println(vorname.equalsIgnoreCase(anderename));
 //        System.out.println(nachname.equalsIgnoreCase(anderename));
 
+//        //Aufgabe H
+//        String nullBisNeun = "0123456789";
+//        char ziffer;
+//        String kartenummer = "";
+//
+//        for (int i=1; i<20; ++i){
+//            ziffer = nullBisNeun.charAt((int) (Math.random()*10));
+//            String zifferen = String.valueOf((char)(ziffer));
+//            if (i%5==0){
+//                kartenummer +="-";
+//                i++;
+//            }
+//            kartenummer = kartenummer.concat(zifferen);
+//        }
+//        System.out.println(kartenummer);
+
         //Aufgabe H
+       String[] nummer = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+       int position;
+       String karteVisa = "";
 
-        String nullBisNeun = "0123456789";
-        char ziffer;
-        ziffer = nullBisNeun.charAt( (int) (Math.random()*10+1) );
-        String zifferen = String.valueOf((char)(ziffer));
-        String kartenummer = "";
-        kartenummer = kartenummer.concat(zifferen);
+       for (int i=1; i<=16; ++i){
+           position = (int) (Math.random()*10);
+           karteVisa += nummer[position];
+           if (i==4 | i==8 | i==12)
+               karteVisa +="-";
+       }
+       System.out.print(karteVisa);
+        System.out.println("");
 
-        ziffer = nullBisNeun.charAt( (int) (Math.random()*10+1) );
-        zifferen = String.valueOf((char)(ziffer));
-        kartenummer = kartenummer.concat(zifferen);
-        System.out.println(kartenummer);
+        //Aufgabe I
+        String maske = "";
+        for (int i=1; i<17; i++){
+            maske += "X";
+            if (i==4 | i==8 | i==12)
+                maske +="-";
+        }
+        System.out.println(maske);
+
+        String submaske = maske.substring(0,15);
+//        System.out.println(submaske);
+        String subKarteVisa = karteVisa.substring(15,19);
+//        System.out.println(subKarteVisa);
+        String maskierteKarte = submaske.concat(subKarteVisa);
+        System.out.println(maskierteKarte);
+
+        //Aufgabe K
+        System.out.println( karteVisa.startsWith("0") );
+        System.out.println( karteVisa.endsWith("0") );
+
+        //L
+        String visa = "8061-2585-4741-8980";
+        boolean contain = visa.contains("4711");
+        System.out.println(contain?"ja":"nein");
 
     }
-
 }

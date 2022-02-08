@@ -20,5 +20,7 @@ public class StringTeoria {
         System.out.println(name.indexOf("Ö"));
         System.out.println(name.replace("ä","ae"));
 
+
+
     }
 }
