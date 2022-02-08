@@ -1,4 +1,4 @@
-package ArrayMehrereDimensionen;
+package Array;
 
 public class MehrereDimensionen {
     public static void main(String[] args) {

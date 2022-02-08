@@ -1,4 +1,4 @@
-package Array;
+package Array.Aufgabe;
 
 public class AufgabeArrayT1C {
     public static void main(String[] args) {
