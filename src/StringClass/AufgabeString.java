@@ -105,12 +105,21 @@ public class AufgabeString {
         String maskierteKarte = submaske.concat(subKarteVisa);
         System.out.println(maskierteKarte);
 
+        //Aufgabe J
+        String mastercard = "5555-6548-6167-9494";
+        int ergebnis = mastercard.indexOf("5555");
+        if (ergebnis ==0)
+            System.out.println("ungültige Startkennung!");
+        else
+            System.out.println("gültige Startkennung");
+
+
         //Aufgabe K
         System.out.println( karteVisa.startsWith("0") );
         System.out.println( karteVisa.endsWith("0") );
 
         //L
-        String visa = "8061-2585-4741-8980";
+        String visa = "8061-2585-4711-8980";
         boolean contain = visa.contains("4711");
         System.out.println(contain?"ja":"nein");
 
