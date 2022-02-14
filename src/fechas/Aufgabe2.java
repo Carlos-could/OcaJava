@@ -1,4 +1,4 @@
-package StringClass;
+package fechas;
 
 import java.time.LocalDateTime;
 import java.time.Month;

@@ -1,4 +1,4 @@
-package StringClass;
+package fechas;
 
 import java.sql.SQLOutput;
 import java.time.LocalDate;
