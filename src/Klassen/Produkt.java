@@ -8,23 +8,29 @@ public class Produkt {
     private String regalNummer;
     private double nettoPreis;
     final byte mehrwertsteuersatz = 19;
-    private int Stuckanzahl;
+    private int stueckAnzahl;
 
     public int getStuckanzahl() {
-        return Stuckanzahl;
+        return stueckAnzahl;
     }
 
     public void setStuckanzahl(int stuckanzahl) {
-        Stuckanzahl = stuckanzahl;
+        stueckAnzahl = stuckanzahl;
     }
 
     public double bruttoPreis(double nettoPreis){
         this.nettoPreis = nettoPreis;
         double brutto = nettoPreis*(100+mehrwertsteuersatz)/100;
-        double bruttoround = Math.round(brutto * 100.0) / 100.0;
-        return bruttoround;
-        
+        return Math.round(brutto * 100.00) / 100.00;
     }
+
+    public double lagerWert(double nettoPreis, int stuckanzahl){
+        this.nettoPreis = nettoPreis;
+        this.stueckAnzahl = stuckanzahl;
+        double lagerWert = nettoPreis*stuckanzahl;
+        return Math.round(lagerWert*100.00)/100.00;
+    }
+
 
     public String getName() {
         return name;
