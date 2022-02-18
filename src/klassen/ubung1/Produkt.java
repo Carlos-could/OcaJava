@@ -31,7 +31,6 @@ public class Produkt {
     }
 
 
-
     public Produkt(String name, String beschreibung, int eanNummer, double nettoPreis, int stueckAnzahl, String regalNummer) {
         this.name = name;
         this.beschreibung = beschreibung;
@@ -40,6 +39,11 @@ public class Produkt {
         this.stueckAnzahl = stueckAnzahl;
         this.regalNummer = regalNummer;
     }
+
+//    public Produkt(){
+//
+//    }
+
 
     public double bruttoPreis(double nettoPreis){
         this.nettoPreis = nettoPreis;
@@ -94,6 +98,11 @@ public class Produkt {
     public int getMwss() {
         return mwss;
     }
+
+//    {
+//        regalNummer = "01-01";
+//        System.out.println(regalNummer);
+//    }
 
 
 }

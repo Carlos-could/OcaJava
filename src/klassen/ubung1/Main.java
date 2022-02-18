@@ -3,7 +3,7 @@ package klassen.ubung1;
 public class Main {
     public static void main(String[] args) {
 
-        Produkt mouse = new Produkt("Mouse Logitec G502","optischem Sensor, RGB-Beleuchtung", 111112222, 30.15, 100, "A-01-01");
+        Produkt mouse = new Produkt("Mouse Logitec G502","optischem Sensor, RGB-Beleuchtung", 111112222, 30.15, 100, "A-01");
         Produkt tastatur = new Produkt("Tastatur Logitec POP","Keys Mechanische Bluetooth-Verbindung",333334444, 20.55, 120, "B-02");
         Produkt laptop = new Produkt("Laptop Lenovo IdeaPad 3i","15,6 Zoll - Slim Notebook",555556666,390.05, 85, "C-01");
 

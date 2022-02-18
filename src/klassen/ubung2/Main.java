@@ -8,8 +8,6 @@ public class Main {
 
         System.out.println(webcam.getName() +"\n"+ webcam.getBeschreibung());
 
-//        webcam.setBeschreibung("Schuler GFN");
-//        System.out.println(webcam.getBeschreibung());
 
 
     }

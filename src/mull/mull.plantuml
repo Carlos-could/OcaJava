@@ -23,6 +23,12 @@ title __MULL's Class Diagram__\n
   
 
   namespace mull {
+    class mull.Test {
+    }
+  }
+  
+
+  namespace mull {
     class mull.dummy {
         {static} + main()
     }

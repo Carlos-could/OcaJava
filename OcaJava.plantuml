@@ -38,6 +38,12 @@ title __OCAJAVA's Class Diagram__\n
   }
   
 
+  namespace Konstruktor {
+    class Konstruktor.Verkettung {
+    }
+  }
+  
+
   namespace array {
     class array.ArraySortSuchen {
     }
@@ -246,6 +252,18 @@ title __OCAJAVA's Class Diagram__\n
   }
   
 
+  namespace klassen.ubung2 {
+    class klassen.ubung2.Main {
+    }
+  }
+  
+
+  namespace klassen.ubung2 {
+    class klassen.ubung2.Produkt {
+    }
+  }
+  
+
   namespace mull {
     class mull.EVA {
     }
@@ -254,6 +272,12 @@ title __OCAJAVA's Class Diagram__\n
 
   namespace mull {
     class mull.Objetos {
+    }
+  }
+  
+
+  namespace mull {
+    class mull.Test {
     }
   }
   

@@ -1,16 +1,16 @@
 @startuml
 
-title __UBUNG1's Class Diagram__\n
+title __UBUNG2's Class Diagram__\n
 
-  namespace klassen.ubung1 {
-    class klassen.ubung1.Main {
+  namespace klassen.ubung2 {
+    class klassen.ubung2.Main {
         {static} + main()
     }
   }
   
 
-  namespace klassen.ubung1 {
-    class klassen.ubung1.Produkt {
+  namespace klassen.ubung2 {
+    class klassen.ubung2.Produkt {
         - beschreibung : String
         - eanNummer : int
         - mwss : int
@@ -20,17 +20,17 @@ title __UBUNG1's Class Diagram__\n
         - stueckAnzahl : int
         + Produkt()
         + bruttoPreis()
-        + equals()
         + getBeschreibung()
         + getEanNummer()
         + getMwss()
         + getName()
         + getNettoPreis()
         + getRegalNummer()
-        + getStuckanzahl()
-        + hashCode()
+        + getStueckAnzahl()
         + lagerWert()
-        + toString()
+        + setNettoPreis()
+        + setRegalNummer()
+        + setStueckAnzahl()
     }
   }
   
