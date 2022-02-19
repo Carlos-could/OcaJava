@@ -16,11 +16,7 @@ public class dummy {
 //        int j = 6;
 //        System.out.print(i < j ? i+" es Menor " + j : i+" es Mayor"+j);
 
-
     }
 }
-    class Test{
-
-    }
 
 
