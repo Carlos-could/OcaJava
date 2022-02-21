@@ -7,17 +7,12 @@ import java.lang.Throwable;
 
 public class Main {
 
-
     public static void main(String[] args) {
         System.out.println("Start-main()");
         String vorname ="Jens";
         String nachname =null;
         System.out.println(vorname);
         System.out.println(nachname);
-
-
-
-
 
 
         try {

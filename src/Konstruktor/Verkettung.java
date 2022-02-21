@@ -15,18 +15,18 @@ public class Verkettung {
         int attribut2;
         int attribut3;
         {
-                attribut1= 1;
-                System.out.println(attribut1);
-                System.out.println("Initialisierungs Block");
-                System.out.println("Default: "+ this.getClass());
-                attribut2 =2;
-                System.out.println(attribut2);
-                System.out.println("Initialisierungs Block");
-                System.out.println("Default: "+ this.getClass());
-                attribut3=3;
-                System.out.println(attribut3);
-                System.out.println("Initialisierungs Block");
-                System.out.println("Default: "+ this.getClass());
+//                attribut1= 1;
+//                System.out.println(attribut1);
+//                System.out.println("Initialisierungs Block");
+//                System.out.println("Default: "+ this.getClass());
+//                attribut2 =2;
+//                System.out.println(attribut2);
+//                System.out.println("Initialisierungs Block");
+//                System.out.println("Default: "+ this.getClass());
+//                attribut3=3;
+//                System.out.println(attribut3);
+//                System.out.println("Initialisierungs Block");
+//                System.out.println("Default: "+ this.getClass());
         }
 
         public Verkettung() {

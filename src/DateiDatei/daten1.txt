@@ -1,0 +1,4 @@
+Brot,3
+Äpfel,5
+Honig,6
+Müsli,9
