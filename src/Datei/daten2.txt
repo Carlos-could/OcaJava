@@ -1,2 +1,2 @@
 Autoreifen;4
-Blinker;4
+Blinker;3

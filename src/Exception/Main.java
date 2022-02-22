@@ -23,16 +23,12 @@ public class Main {
         //catch(NumberFormatException npe)
         //catch(Throwable npe)
 
-
         {
             if(vorname ==null ||  nachname==null)
                 System.out.println("Das ist NullPointerException");
 
-
+            npe.getMessage();
             npe.printStackTrace();
-
-
-
 
         }
         System.out.println("Ende-main()");

@@ -10,7 +10,7 @@ public class Obs {
 
         ArrayList<String> liste = new ArrayList<>();
 
-        File f = new File("src/obs.txt");
+        File f = new File("src/TryCatch/obs.txt");
         String zeile = "";
 
         try {

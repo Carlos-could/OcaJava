@@ -1,4 +1,4 @@
-package DateiDatei.DatenDatei;
+package Datei;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,42 +6,25 @@ import java.util.ArrayList;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class DatenDatei {
+public class Main2 {
 
-    private ArrayList<String> liste;
-    private String dateiname;
+    public static void main(String[] args) {
 
-    public DatenDatei(String dateiname) {
-        this.dateiname = dateiname;
-        this.liste = datenDateiEinlesenUndAnzeigen(dateiname);
-        datenDateiAnzeigen (liste);
+        ArrayList<String> liste1;
+        liste1 = datenDateiEinlesenUndAnzeigen("src/DateiDatei/daten1.txt");
+        datenDateiAnzeigen(liste1);
+
+
+        ArrayList<String> liste2;
+        liste2 = datenDateiEinlesenUndAnzeigen("src/DateiDatei/daten2.txt");
+        datenDateiAnzeigen(liste2);
     }
 
-    public ArrayList<String> getListe() {
-
-        return this.liste;
-    }
-
-    public void setListe(ArrayList<String> liste) {
-        this.liste = liste;
-    }
-
-    public String getDateiname() {
-        return dateiname;
-    }
-
-    public void setDateiname(String dateiname) {
-        this.dateiname = dateiname;
-//        datenDateiEinlesenUndAnzeigen(this.dateiname);
-        this.liste = datenDateiEinlesenUndAnzeigen(dateiname);
-
-    }
-
+//ESTE METODE LEE
     public static ArrayList<String> datenDateiEinlesenUndAnzeigen (String dateiname) {
 
         ArrayList<String> liste = new ArrayList<>();
         File f = new File(dateiname);
-
         String zeile = "";
 
         try {
@@ -64,17 +47,17 @@ public class DatenDatei {
         }
         return liste;
     }
-    //Die Code zeigt an
-    public static void datenDateiAnzeigen (ArrayList<String> liste) {
+// ESTE METODE IMPRIME
+    public static void datenDateiAnzeigen (ArrayList<String> liste){
 //         Alle Zeilen anzeigen
 //        System.out.println("Alle eingelesenen Zeilen ausgeben:");
 
         for (String z : liste) {
             System.out.println(z);
         }
+//        System.out.println("Jetzt sind alle Daten da! in Liste");
+
 
     }
-
-
 
 }

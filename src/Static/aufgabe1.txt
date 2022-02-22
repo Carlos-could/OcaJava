@@ -1,0 +1,32 @@
+Aufgabe „Static Attribute und Methoden – Teil 1“
+
+Zunächst soll das static (dt. statisch) Prinzip für Attribute und Methoden geübt werden:
+
+a)	Erstellen Sie eine „normale“ Klasse mit dem Klassennamen Ente nach folgender Vorlage:
+
+public class Ente {
+    String name;
+    String ort;
+
+    void schwimmWohin(String ort){
+        this.ort = ort;
+        System.out.println(this.name + ": ich bin jetzt hier: " + ort);
+    }
+
+    String woBistDu() {
+        return this.name + ": ich bin immer noch hier: " + this.ort;
+    }
+}
+
+b)	Erstellen Sie 2 Objekte vom Type Ente in der main-Methode.
+
+Geben Sie den Enten Namen und lassen Sie sie irgendwo hin schwimmen ;-) Prüfen Sie dann, wo die Ente ist!
+
+Soweit ist sicherlich alles „normal“,
+es gibt aus Vereinfachungsgründen keinen Konstruktor und keine Getter/Setter, kein Problem.
+
+c)	Erstellen Sie nun die Klasse EnteStatisch indem Sie die Ente-Klasse duplizieren und alle Methoden und Attribute mit static kennzeichnen.
+Korrigieren Sie alle Fehler indem Sie die Prinzipien von“static“ anwenden!
+
+d)	Wenn alle Fehler korrigiert sind erzeugen Sie in der main()-Methode
+statische Enten! Wenn das so ohne weiteres möglich ist!?
