@@ -9,8 +9,14 @@ public class Ente {
         Ente ente1 = new Ente();
         Ente ente2 = new Ente();
 
-        ente1.schwimmWohin("Schwimmbad");
-        ente2.schwimmWohin("Isar");
+        ente1.name = "Lucas";
+        ente2.name = "Lima";
+        ente1.ort = "Schwimmbad";
+        ente2.ort = "Isar";
+
+
+        System.out.println( ente1.woBistDu());
+        System.out.println( ente2.woBistDu());
     }
 
     String name;
